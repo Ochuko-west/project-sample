@@ -1,0 +1,412 @@
+/* style for body */
+body{
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+    background-color: #fff;
+    
+   
+}
+html{
+    scroll-behavior: smooth;
+}
+#about, #book1, #contact{
+    margin-top: 15rem;
+    padding-top: 5rem;
+
+}
+   
+
+
+
+/* style for navbar-brand */
+nav{
+   background-color: rgba(255, 255, 255, 0.9) ! important;
+}
+.navbar-brand{
+    font-family: 'Allura', cursive;
+    padding: 0.5rem;
+    font-size: 2rem;
+    color: #181818;
+    font-weight: 600;
+}
+.nav-link{
+    font-family: 'Source Serif Pro', serif;
+    padding: 1rem;
+    transition: all .3s ease-in-out;
+    color: #181818 !important;
+    text-transform: uppercase;
+}
+.nav-link:hover{
+    background-color: #fffffe;
+    font-weight: 600;
+}
+.dropdown-item{
+    font-family: 'Source Serif Pro', serif;
+}
+.dropdown-item:hover{
+    color: #181818 !important;
+    background-color: #fffffe;
+    font-weight: 600;
+}
+
+
+.card-body p{
+    line-height: 2.2;
+    font-weight: 400;
+    text-align: justify;
+    padding-right: 1.5rem;
+    font-size: 1.1rem;
+    overflow: hidden;
+    
+
+}
+.about-body{
+    line-height: 2.2;
+    font-weight: 400;
+    text-align: justify;
+    font-size: 1.1rem;
+}
+.blog-header{
+  
+    font-family: 'Source Serif Pro', serif;
+    color: #181818;
+    font-weight: 600;
+    font-size: 2.8rem;
+
+}
+.fas{
+   
+    font-size: 2.2rem;
+}
+.fas:hover{
+    cursor: pointer;
+}
+.card-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.blog-btn a{
+    text-decoration: none;
+    color: #181818;  
+}
+.blog-btn{
+    background-color: #4fc4fc;
+    padding: 0.6rem 0.6rem;
+    font-weight: 400;
+    border: 1px solid #4fc4fc;
+    transition: all .3s ease-in-out;
+}
+.blog-btn:hover{
+    background-color: transparent;
+   
+}
+
+.cardd{
+   border: 1px solid lightgrey;
+   background-color: #f1f0f083
+
+}
+.article{
+    font-family: 'Source Serif Pro', serif;
+    color: #181818;
+    font-weight: 600;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    text-decoration: underline #181818 solid 2px;
+    text-underline-offset: 0.3rem;
+    overflow: hidden;
+
+}
+.articles {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: #181818;
+    border: 2px solid lightgray;
+    border-radius: 7px;
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 500;
+    padding: 0rem;
+    transition:all .4s ease-in-out;
+    background-color: #f1f0f083;
+   
+   
+
+
+}
+.articles > img{
+    overflow: hidden;
+}
+.articles a{
+   text-decoration: none;
+   color: #181818;
+   
+   font-size: 1.1rem;
+   
+   
+}
+.articles h5{
+    padding: 0.4rem 0.4rem 0.2rem 0.4rem;
+    margin-bottom: 0rem;
+    overflow: hidden;
+  
+}
+.articles-link{
+    font-size: 1rem;
+}
+
+
+.articles a:hover{
+    font-weight: 700;
+    color: #4fc4fc;
+    text-decoration: underline #4fc4fc solid 1px;
+    text-underline-offset: 0.2rem;
+}
+.date{
+   
+    padding-left: 0.4rem;
+    overflow: hidden;
+    margin-top: 0rem;
+}
+.articles:hover{
+    scale: 1.2 1.2; 
+    cursor: pointer;
+    box-shadow: 0 0 4px rgb(170, 170, 170);
+    
+     
+}
+.card-img2{
+    background:url('7.jpg');
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    margin-bottom: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
+}
+
+.about{
+    font-family: 'Source Serif Pro', serif;
+    font-size: 1rem;
+    word-spacing: 0.2rem;
+}
+.about-para{
+    color: #181818;
+}
+.about-para a{
+    text-decoration: none;
+    color: #4fc4fc;
+}
+.contact-links{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+ .link-secondary{
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+.fa-brands, .fa-sharp{
+    color: #181818;
+    transition: all .3s ease-in-out;
+}
+.fa-brands:hover, .fa-sharp:hover{
+    color: #4fc4fc;
+}
+.contact-body{
+    background-color: #f1f0f0 
+}
+
+
+.contact-copyright{
+  background-color: #ffffff;
+}
+.contact-hover{
+  border: 0;
+  border-bottom: 1px solid #181818;
+}
+.contact-hover:focus{
+  box-shadow: 0 0 5px #4fc4fc;
+  border: 1px solid  #4fc4fc
+}
+.contact-btn{
+
+  font-family: 'Source Serif Pro', serif;
+  background-color: #4fc4fc;
+  padding: 0.8rem 1.5rem;
+  border: 0px;
+  font-weight: 400; 
+  transition: all 0.35s ease-in-out;
+  letter-spacing: 0.1rem;
+  
+}
+.contact-btn:hover{
+background-color: transparent;
+border: 1px solid #4fc4fc
+
+}
+#message{
+    resize: none;
+    height: 8rem;
+}
+.footer{
+    background-color: #f1f0f0 ;
+}
+.sign-up{
+    font-family: 'Source Serif Pro', serif;
+    background-color: #4fc4fc;
+    padding: 0.6rem 1rem;
+    border: 0px;
+    font-weight: 400; 
+    transition: all .35s ease-in-out;
+    
+}
+.sign-up:hover{
+    background-color: transparent;
+    border: 1px solid #4fc4fc;
+    box-shadow: 0 0 3px #4fc4fc;
+}
+
+.newsletter input{
+    padding: 0.6rem 1rem;
+    outline: none;
+    border: 1px solid #f1f0f0;
+    transition: all 0.5s ease-in-out;
+    
+}
+.newsletter input:focus{
+    box-shadow: 0 0 3px #4fc4fc;
+    border: 1px solid  #4fc4fc
+}
+
+.book-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+   
+}
+.book-cover{
+   width: 40%;
+}
+.book-review{
+    width: 60%;
+    text-align: justify;
+}
+.book-review p{
+    line-height: 2.2;
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+.contact{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+}
+.err{
+    color: red;
+   font-weight: 600;
+   font-size: 1rem;
+    
+}
+.error{
+
+    border: 0;
+    border-bottom: 1px solid red
+}
+.success{
+    border: 0;
+    border-bottom: 1px solid green
+}
+.success-cont{
+    display: none;
+    font-family: 'Source Serif Pro', serif;
+}
+.field{
+    display: none;
+}
+
+/* mediaqueries */
+/* On screens that are 760px or less, set the nav class flex-direction to col */
+@media screen and (max-width: 760px) {
+    .book-section{
+        display: flex;
+        flex-direction: column;
+        text-align: justify;  
+    
+    }
+    .book-cover{
+        width: 100%;
+        text-align: center;
+
+    }
+    .book-review{
+        width: 100%;
+    }
+    .book-title{
+        text-align: center;
+    }
+
+    .book-button{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .blog-btn{
+        margin-bottom: 1rem;
+    }
+    .sign-up{
+        margin-top: 0.8rem;
+    }
+    .connect{
+        padding-bottom: 0.8rem;
+        
+
+    }
+    .navbar-brand{
+        font-size: 1.5rem;
+    }
+    
+    .card-body p{
+        padding-left: 1rem ;
+        padding-right: 1rem;
+    }
+    .blog-header{
+  
+        font-family: 'Source Serif Pro', serif;
+        color: #181818;
+        font-weight: 600;
+        font-size: 2rem;
+    
+    }
+    #home{
+        padding: 0rem 1rem;
+    }
+    .card-body p{
+        line-height: 1.8;
+    }
+    .article{
+        font-size: 1.4rem;
+    }
+    .articles{
+        transition: all .3s ease-in-out;
+    }
+    .articles:hover{
+        scale: 1.1 1.1;
+    }
+    .link-secondary{
+        font-size: 1.2rem;
+    }
+    #about, #book1, #contact{
+        margin-top: 3rem;
+   
+}
+}
